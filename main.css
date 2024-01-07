@@ -1,0 +1,110 @@
+/* Estilo de reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Estilo do corpo da página */
+body {
+  background-color: #54aefd;
+  padding: 0 0 2rem;
+  text-align: center;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  font-size: 1rem;
+}
+
+/* Estilo do cabeçalho */
+header {
+  color: #f2f2f2;
+  margin: 1.3rem;
+  font-size: 1.3rem;
+}
+
+/* Estilo da seção principal */
+main {
+  background-color: #f2f2f2;
+  padding: 1.3rem;
+  border-radius: 0.5rem;
+  box-shadow: 0.2rem 0.2rem 1rem 0.1rem;
+  width: 30rem;
+  margin: 1rem auto;
+}
+
+/* Estilo da seção de obtenção de números */
+#obtendoNumerosDiv {
+  margin-top: 1rem;
+}
+
+/* Estilo do campo de seleção de números */
+#obtendoNumeros {
+  width: 10rem;
+}
+
+/* Estilo do campo de entrada de números */
+input {
+  width: 10rem;
+  padding: 0.3rem;
+}
+
+/* Estilo da área de aviso */
+#areaAviso {
+  display: none;
+  color: white;
+  font-weight: 900;
+  padding: 0.5rem;
+  margin-top: 1rem;
+  border-radius: 0.9rem;
+}
+
+/* Estilo do resultado */
+#resultado {
+  display: none;
+  padding: 0.5rem;
+  margin-top: 1rem;
+  border-radius: 0.9rem;
+  background-color: #ca1818;
+  color: white;
+}
+
+/* Estilo dos parágrafos no resultado */
+#resultado p {
+  padding: 0.39rem;
+  text-align: justify;
+  font-weight: 500;
+  color: #000000;
+}
+
+/* Estilo dos botões */
+button {
+  padding: 0.6rem;
+  border: none;
+  background-color: #bfbeae;
+  border-radius: 1rem;
+  font-size: 0.9rem;
+  font-weight: 600;
+  margin: auto 0.4rem;
+}
+
+/* Efeito de hover para o botão Finalizar e botões em geral */
+#butaoFinalizar:hover,
+button:hover {
+  background-color: #c1d96a;
+}
+
+/* Efeito de hover para o botão Cancelar */
+#butaoCancelar:hover {
+  background-color: #ca1818;
+}
+
+/* Estilo do rodapé */
+footer {
+  background-color: #0583f2;
+  padding: 10px;
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}

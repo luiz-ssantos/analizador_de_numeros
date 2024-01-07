@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="main.css" />
+    <title>Analizador de Numeros</title>
+  </head>
+  <body>
+    <header>
+      <h1>Analizador de Numeros</h1>
+    </header>
+    <main>
+      <!-- Seção para adicionar números -->
+      <section id="addNumerosDiv">
+        <form action="">
+          <label for="addNumeros">Número (entre 1 e 100)</label>
+          <input
+            type="number"
+            name="addNumeros"
+            id="addNumeros"
+            min="1"
+            max="100"
+            placeholder="Valor..."
+          />
+          <button type="submit" id="butaoAdicionar">Adicionar</button>
+        </form>
+      </section>
+      <!-- Seção para exibir números e resultados -->
+      <section id="obtendoNumerosDiv">
+        <select name="obtendoNumeros" id="obtendoNumeros" size="8"></select>
+        <br />
+        <div id="areaAviso"></div>
+        <br />
+        <button type="submit" id="butaoFinalizar">Finalizar</button>
+        <button type="submit" id="butaoCancelar">Cancelar</button>
+      </section>
+      <section>
+        <div id="resultado"></div>
+      </section>
+    </main>
+    <footer>
+      <p>&copy;Luiz Henrique</p>
+    </footer>
+    <script src="main.js"></script>
+  </body>
+</html>
